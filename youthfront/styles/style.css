@@ -1,0 +1,110 @@
+:root {
+    --kyf-primary: #AB0B39;
+    --kyf-secondary: #01BFBF;
+    --kyf-blue: #3a3a3b;
+    --kyf-white: #fff;
+    --kc-primary: #D21F3C;
+    --kc-secondary: #2f2f2f;
+}
+
+.bg-kc-blue {
+    background-color: var(--kyf-blue);
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.kyf-navbar {
+    background-color: var(--kyf-white) !important;
+}
+
+.kyf-logo {
+    transform: scale(1);
+    font-weight: 600;
+}
+
+.kyf-content {
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+.title-1 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: var(--kyf-blue);
+}
+
+.title-2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--kyf-blue);
+}
+
+.title-3 {
+    font-size: large;
+    font-weight: normal;
+    color: var(--kyf-blue);
+}
+
+.kyf-card {
+    background-color: var(--kyf-blue);
+    color: var(--kyf-white);
+}
+
+.img-chairman {
+    transform: scale(0.8);
+}
+
+footer {
+    background-color: var(--kc-secondary);
+    padding: 2rem;
+}
+
+.footer-address h6, .footer-item h6 {
+    font-weight: 300;
+    color: white !;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.title-name {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+@media (max-width:576px) {
+    .kyf-logo {
+        justify-content: center;
+    }
+    .logo-image {
+        transform: scale(0.8);
+    }
+    .title-name{
+        font-size: large;
+    }
+}

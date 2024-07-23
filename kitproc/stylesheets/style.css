@@ -1,0 +1,41 @@
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --base: #D21F3C;
+}
+#main {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.246);
+}
+
+.footer-content {
+  padding: 10px;
+}
+.my-card{
+  /* box-shadow: 0 0 10px rgba(128, 128, 128, 0.582); */
+  padding: 1rem;
+}
+.footer-link{
+  color: white;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white;
+  text-decoration: none;
+}
